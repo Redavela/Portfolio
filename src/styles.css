@@ -129,17 +129,41 @@ p {
 }
 
 .project-card {
-    /* background-color: #eeb2ba; */
     border-radius: 5px;
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-imgContainer{
+    height: 40%;
 }
 
+.project-text{
+    min-height: 45%;
+    width: 95%;
+    margin: auto;
+}
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+#contact-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#contact-me a{
+    font-size: large;
+    margin-bottom: 15px;
+}
+#contact-me a:hover{
+    color: #eeb2ba;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -150,7 +174,7 @@ p {
 }
 
 .project-image {
-    margin-top: 15px;
+    margin: 15px auto;
     width: 95%;
     border-radius: 15px;
 }
