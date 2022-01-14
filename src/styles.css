@@ -118,7 +118,7 @@ p {
 }
 
 .headshot {
-    width: 300px;
+    width: 200px;
     border-radius: 150px;
     margin-left: 80px;
 }
@@ -206,6 +206,7 @@ a {
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
+        cursor: pointer;
         border: 0;
         background-color: transparent;
         color: white;
