@@ -74,7 +74,7 @@ p {
     width: 200px;
     height: 40px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #fff;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -82,14 +82,19 @@ p {
     margin-top: 20px;
 }
 
-.button:hover {
-    background-color: #ef744b;
+.button a{
+    color:black;
 }
 
-.button:active {
-    background-color: #A9A9A9;
-    color: #808080;
+a:hover {
+    color: #f71b1b;;
 }
+
+.button:hover {
+    background-color: #ffffff;
+    
+}
+
 
 .socials {
     padding-bottom: 200px;
@@ -162,8 +167,9 @@ p {
     font-size: large;
     margin-bottom: 15px;
 }
-#contact-me a:hover{
-    color: #eeb2ba;
+
+svg:hover {
+fill: #f71b1b;
 }
 
 .project-image {
