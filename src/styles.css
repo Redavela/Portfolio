@@ -74,7 +74,7 @@ p {
     width: 200px;
     height: 40px;
     border-radius: 30px;
-    background-color: #fff;
+    background-color: #ff3e3e;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -84,10 +84,6 @@ p {
 
 .button a{
     color:black;
-}
-
-a:hover {
-    color: #f71b1b;;
 }
 
 .button:hover {
