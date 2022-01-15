@@ -166,13 +166,6 @@ p {
     color: #eeb2ba;
 }
 
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
 .project-image {
     margin: 15px auto;
     width: 95%;
@@ -202,8 +195,12 @@ a {
     outline: 0;
 }
 
-
 @media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .hamburger {
         display: block;
         cursor: pointer;
@@ -233,5 +230,52 @@ a {
 
     .logo {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-area {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .hero-text{
+        margin: 40px 0px 0px 15px ;
+    }
+
+    .hero-text h1 {
+        font-size: 80px;
+        margin: auto;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 50px ;
+    }
+
+    .sub-section{
+        flex-direction: column-reverse;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .headshot-container{
+        margin: auto;
+    }
+
+    .headshot {
+        margin-left: 0;
+        width: 180px;
+        border-radius: 25px;
+        margin-top: 25px;
+    }
+    .sub-section-alternative{
+        min-width: 300px;
+        padding: 0;
+    }
+    .project-card{
+        min-width: 280px;
     }
 }
