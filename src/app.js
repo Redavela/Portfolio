@@ -8,3 +8,11 @@ function toggleButton() {
 }
 
 hamburgerButton.addEventListener('click', toggleButton);
+
+const allLinks = document.querySelectorAll('.item-nav');
+
+allLinks.forEach(function(item){
+
+    item.addEventListener('click', toggleButton)
+
+})
