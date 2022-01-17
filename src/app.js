@@ -2,6 +2,7 @@
 
 const hamburgerButton = document.getElementById('hamburger');
 const navList = document.getElementById('nav-list');
+const allLinks = document.querySelectorAll('.item-nav');
 
 function toggleButton() {
     navList.classList.toggle('show');
@@ -9,7 +10,6 @@ function toggleButton() {
 
 hamburgerButton.addEventListener('click', toggleButton);
 
-const allLinks = document.querySelectorAll('.item-nav');
 
 allLinks.forEach(function(item){
 

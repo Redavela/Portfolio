@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 section {
     background-color: white;
 }
@@ -87,8 +91,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ffffff;
-    
+    background-color: #ffffff; 
 }
 
 
@@ -157,15 +160,24 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    color: #eeb2ba;
 }
+
 #contact-me a{
     font-size: large;
     margin-bottom: 15px;
 }
 
+#contact-me a:hover{
+    color: #eeb2ba;
+}
+
 svg:hover {
 fill: #f71b1b;
+}
+
+.item-nav  a:hover {
+    color: #f71b1b;
 }
 
 .project-image {
