@@ -121,6 +121,9 @@ p {
     width: 200px;
     object-fit: cover;
 }
+footer {
+    color: blue;
+}
 .social {
     margin: 20px;
 }
